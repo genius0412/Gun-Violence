@@ -2,38 +2,95 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles.css" />
-	<script src="https://cdn.tailwindcss.com"></script>
-	<script>
-		tailwind.config = {
-			theme: {
-				fontFamily: {
-					inter: ['Inter', 'ui-sans-serif', 'system-ui']
-				}
-			}
-		}
-	</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    inter: ['Inter', 'ui-sans-serif', 'system-ui']
+                }
+            }
+        }
+    </script>
 </head>
 
 <body>
-	<div class="snap-y snap-mandatory scroll-smooth w-screen h-screen overflow-y-scroll overflow-x-hidden">
-		<div id="page1" class="snap-start flex flex-col justify-center items-center w-screen h-screen bg-cover bg-center">
-			<div class="md:w-3/5 md:h-1/2 bg-white rounded-3xl flex flex-col justify-center items-center drop-shadow-xl ring-4 ring-gray-700">
-				<div class="font-inter flex flex-col justify-center items-center text-center font-semibold w-full h-full">
-					<div class="flex justify-center items-center md:h-[15%] font-extrabold md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-amber-600">#1</div>
-					<div class="flex justify-center items-center md:h-[12.5%] md:text-5xl">Threat to Teens in the US:</div>
-					<div class="flex justify-center items-center md:h-[17.5%] md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-900 to-rose-900">Gun Violence</div>
-					<div class="my-4 w-full md:h-[1%] bg-gradient-to-r from-sky-500 to-blue-500"></div>
-					<div class="flex justify-center items-center md:h-[20%] md:text-4xl">By Dohun Kim</div>
+    <div class="snap-y snap-mandatory scroll-smooth w-screen h-screen overflow-y-scroll overflow-x-hidden">
+        <div id="page1" class="snap-start flex flex-col justify-center items-center w-screen h-screen bg-cover bg-center">
+            <div class="md:w-3/5 md:h-1/2 bg-white rounded-3xl flex flex-col justify-center items-center drop-shadow-xl ring-4 ring-gray-700">
+                <div class="font-inter flex flex-col justify-center items-center text-center font-semibold w-full h-full">
+                    <div class="flex justify-center items-center md:h-[15%] font-extrabold md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-amber-600">#1</div>
+                    <div class="flex justify-center items-center md:h-[12.5%] md:text-5xl font-bold">Threat to Teens in the US:</div>
+                    <div class="flex justify-center items-center md:h-[17.5%] md:text-7xl text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-900 to-rose-900 font-extrabold">Gun Violence</div>
+                    <div class="my-4 w-full md:h-[1%] bg-gradient-to-r from-sky-500 to-blue-500"></div>
+                    <div class="flex justify-center items-center md:h-[20%] md:text-4xl">By Dohun Kim</div>
+                </div>
+            </div>
+        </div>
+        <div class="snap-start flex flex-col justify-center items-center w-screen h-screen">
+            <div class="flex flex-col justify-center items-start md:w-3/5 md:h-1/2 font-inter">
+                <div class="text-7xl mb-4 font-extrabold">3 Main Effects</div>
+                <div class="text-4xl font-semibold">1. Physical and Mental Health Problems</div>
+                <div class="text-4xl font-semibold">2. Social Development Issues</div>
+                <div class="text-4xl font-semibold">3. Economic Consequences on Society</div>
+            </div>
+        </div>
+        <div class="snap-start flex flex-col justify-center items-center w-screen h-screen">
+			<div class="flex flex-col justify-center items-start md:w-3/5 md:h-1/2 font-inter">
+				<div class="text-6xl mb-4 font-bold text-purple-800">
+					<img class="h-16" src="./src/heart.jpg" alt="heart image" />
+					1. Physical and Mental Health Problems
 				</div>
+				<div class="text-4xl font-semibold">- Direct Consequences</div>
+				<div class="text-4xl font-semibold">- Indirect Consequences</div>
+				<div class="text-4xl font-semibold">- Story of Shamaree Bynum</div>
 			</div>
-		</div>
+        </div>
+        <div class="snap-start flex flex-col justify-center items-center w-screen h-screen">
+            <div class="flex flex-col justify-center items-start md:w-4/5 md:h-5/6">
+                <div class="w-full p-4 mb-[2.5%] flex flex-col justify-center items-center text-center rounded-2xl bg-sky-100">
+					<div class="text-4xl font-semibold">1. Physical and Mental Health Problems</div>
+					<div class="text-6xl font-bold text-emerald-900">Direct Consequences</div>
+				</div>
+                <div class="w-full h-[60%] flex flex-col justify-center items-center text-5xl font-semibold bg-purple-100 rounded-2xl">
+                    <div class="mb-4">Physical Health - Deaths and Injuries</div>
+                    <div>Mental Health - Trauma, PTSD, etc.</div>
+                </div>
+            </div>
+        </div>
 		<div class="snap-start flex flex-col justify-center items-center w-screen h-screen">
-			Hi
-		</div>
-	</div>
+            <div class="flex flex-col justify-center items-start md:w-4/5 md:h-5/6">
+                <div class="w-full p-4 mb-[2.5%] flex flex-col justify-center items-center text-center rounded-2xl bg-sky-100">
+					<div class="text-4xl font-semibold">1. Physical and Mental Health Problems</div>
+					<div class="text-6xl font-bold text-emerald-900">Indirect Consequences</div>
+				</div>
+                <div class="w-full h-[60%] flex flex-col justify-center items-center text-5xl font-semibold bg-purple-100 rounded-2xl">
+                    <div class="mb-4">Lower birth weights</div>
+                    <div>Tactics to avoid stray bullets, such as sleeping in bathtubs</div>
+                </div>
+            </div>
+        </div>
+		<div class="snap-start flex flex-col justify-center items-center w-screen h-screen">
+            <div class="flex flex-col justify-center items-start md:w-4/5 md:h-5/6">
+                <div class="w-full p-4 mb-[2.5%] flex flex-col justify-center items-center text-center rounded-2xl bg-sky-100">
+					<div class="text-4xl font-semibold">1. Physical and Mental Health Problems</div>
+					<div class="text-6xl font-bold text-emerald-900">Story of Shamaree Bynum</div>
+				</div>
+                <div class="w-full h-[60%] flex flex-col justify-center items-center text-5xl font-semibold bg-purple-100 rounded-2xl">
+                    <div class="flex flex-col justify-center items-start w-5/6 h-full">
+						<div class="mb-4">5 years old</div>
+						<div class="mb-4">About to eat ice cream and watch a movie</div>
+						<div class="mb-4">Bullet ripped through the front double window</div>
+						<div class="mb-4">Shamaree's grandfather, Odell Branch, 77, died trying to save Shamaree</div>
+						<div>Shamaree was physically injured and was still mentally injured 5 years later</div>
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
